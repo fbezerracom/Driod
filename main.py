@@ -1,4 +1,4 @@
-# Our main file.
+'''# Our main file.
 
 import speech_recognition as sr
 
@@ -7,6 +7,9 @@ r = sr.Recognizer()
 
 # Abrir o microfone para captura
 with sr.Microphone() as source:
-    audio = r.listen(source) # Define o microfone como fonte de áudio
+    while True:
+        audio = r.listen(source) # Define o microfone como fonte de áudio
 
-    print(r.recognize_google(audio))
+        print(r.recognize_google(audio, language='pt'))
+'''
+
