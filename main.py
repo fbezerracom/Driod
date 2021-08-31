@@ -1,4 +1,4 @@
-set as interpreter
+#set as interpreter
 #!/usr/bin/ env python3
 
 from vosk import KaldiRecognizer, Model, KaldiRecognizer
