@@ -8,4 +8,4 @@ Foco:
 Técnologias:
     Reconhecimento de voz: (Google para reconhecimento online, vosk para reconhecimento offline).
     Síntese de voz: (pyttsx3)
-    Algun tipo de IA: Commands, NLU
+    Algun tipo de IA: Commands, NLU (classificação de texto)
